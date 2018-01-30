@@ -17,7 +17,7 @@ def trade(bot_info, signal) :
         have_won = int(balance['krw']['avail']);
         if ((int(signal[0]) == 1) and (have_won > 10000)) : sell_coinone(insure, coin_name);
         if ((int(signal[0]) == 0) and (have_won < 10000)) : sell_coinone(insure, coin_name);
-        # 코인원 끝
+        # 코인원 끝~
 
 def buy_coinone(insure, coin_name) :
     coin_tinker = get_ticker(coin_name);
