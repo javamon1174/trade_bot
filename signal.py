@@ -33,7 +33,7 @@ if __name__ == "__main__":
         for c in list_coin:
             try :
                 if (e[1] == 'coinone') : # 코인원 # true = 1 / false = 0
-                    result = getDoubleMV(c[0], e[0], 15, 50);
+                    result = getDoubleMV(c[0], e[0], 19, 27); # 상승장일땐 15:50 하락장일때는 19:27
                     last = selectLastSignal(c[0], e[0]);
                     insertSignal(e[0], c[0], 'mv', int(result[0]));
 
