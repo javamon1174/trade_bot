@@ -48,6 +48,26 @@ def insertRecentPrice(coin=1, exchange=1, price=0, volume=0) :
 
     return result;
 
+def insertDayPrice(coin=1, exchange=1, data=[]) :
+    res = getDbConnector();
+
+    sql = 'INSERT INTO tb_tinker (coin_idx, exchange_idx, opening_price, closing_price, min_price, max_price, volume) ' \
+          'VALUES (%s, %s, %s, %s, %s, %s, %s)'
+
+    result = res['curs'].execute(sql, (coin,
+                                       exchange,
+                                       data['opening_price'],
+                                       data['closing_price'],
+                                       data['min_price'],
+                                       data['max_price'],
+                                       data['volume_1day'],
+                                       ));
+
+    res['conn'].close();
+
+    return result;
+
+
 #거래소 목록 조회
 def getExchangeList():
     res = getDbConnector();

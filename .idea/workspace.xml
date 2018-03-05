@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df57d971-6bca-4e10-b61d-9f4508e91b8d" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/bithumb/api_test.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bithumb/price.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/bithumb/xcoin_api_client.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tinker_stochastics.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/signal.py" afterPath="$PROJECT_DIR$/signal.py" />
+      <change beforePath="$PROJECT_DIR$/db.py" afterPath="$PROJECT_DIR$/db.py" />
+      <change beforePath="$PROJECT_DIR$/tinker.py" afterPath="$PROJECT_DIR$/tinker.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,17 +22,62 @@
     <SUITE FILE_PATH="coverage/trademon$trade.coverage" NAME="trade Coverage Results" MODIFIED="1517303887720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/trademon$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1517030618058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/trademon$main.coverage" NAME="main Coverage Results" MODIFIED="1517030703010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/trademon$tinker.coverage" NAME="tinker Coverage Results" MODIFIED="1517119329059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/trademon$signal.coverage" NAME="signal Coverage Results" MODIFIED="1517381989768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/trademon$stochastics.coverage" NAME="stochastics Coverage Results" MODIFIED="1520225780866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/trademon$tinker.coverage" NAME="tinker Coverage Results" MODIFIED="1520228392636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="signal.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/signal.py">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="tinker_stochastics.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tinker_stochastics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
+            <state relative-caret-position="341">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tinker.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tinker.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="price.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/bithumb/price.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="482">
+              <caret line="65" column="24" lean-forward="true" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+              <folding>
+                <marker date="1520228387799" expanded="true" signature="603:624" ph="select * fro... tb_user" />
+                <marker date="1520228387799" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
+                <marker date="1520228387799" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
+                <marker date="1520228387799" expanded="true" signature="1960:1985" ph="select * fro... tb_exchange" />
+                <marker date="1520228387799" expanded="true" signature="2167:2188" ph="select * fro... tb_coin" />
+                <marker date="1520228387799" expanded="true" signature="2433:2525" ph="SELECT price... tb_tinker" />
+                <marker date="1520228387799" expanded="true" signature="2820:2932" ph="INSERT INTO `tb_signal`... " />
+                <marker date="1520228387799" expanded="true" signature="3167:3273" ph="SELECT posit... tb_signal" />
+                <marker date="1520228387799" expanded="true" signature="3499:3743" ph="SELECT DISTI... tb_user_trade_bot" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,11 +109,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/example_basic_usage.py" />
-        <option value="$PROJECT_DIR$/tinker.py" />
-        <option value="$PROJECT_DIR$/db.py" />
         <option value="$PROJECT_DIR$/coinone/account.py" />
         <option value="$PROJECT_DIR$/trade.py" />
         <option value="$PROJECT_DIR$/signal.py" />
+        <option value="$PROJECT_DIR$/stochastics.py" />
+        <option value="$PROJECT_DIR$/tinker_stochastics.py" />
+        <option value="$PROJECT_DIR$/bithumb/price" />
+        <option value="$PROJECT_DIR$/tinker.py" />
+        <option value="$PROJECT_DIR$/bithumb/price.py" />
+        <option value="$PROJECT_DIR$/db.py" />
       </list>
     </option>
   </component>
@@ -96,6 +150,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,14 +163,18 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/trade.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/stochastics.py" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\javam\PycharmProjects\trademon\bithumb" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -129,7 +188,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.signal">
+  <component name="RunManager" selected="Python.tinker">
     <configuration name="db" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,6 +246,25 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="stochastics" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\javam\PycharmProjects\trademon\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="trademon" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\javam\PycharmProjects\trademon\tinker_stochastics.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="tinker" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,12 +303,13 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.tinker" />
       <item index="1" class="java.lang.String" itemvalue="Python.main" />
       <item index="2" class="java.lang.String" itemvalue="Python.db" />
       <item index="3" class="java.lang.String" itemvalue="Python.signal" />
-      <item index="4" class="java.lang.String" itemvalue="Python.trade" />
+      <item index="4" class="java.lang.String" itemvalue="Python.stochastics" />
+      <item index="5" class="java.lang.String" itemvalue="Python.trade" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -255,23 +334,23 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3301179" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3301179" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15270619" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -286,19 +365,127 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/tinker_stochastics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tinker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3162">
+          <caret line="106" column="31" lean-forward="false" selection-start-line="106" selection-start-column="23" selection-end-line="106" selection-end-column="31" />
+          <folding>
+            <marker date="1520228387799" expanded="true" signature="603:624" ph="select * fro... tb_user" />
+            <marker date="1520228387799" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520228387799" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520228387799" expanded="true" signature="1960:1985" ph="select * fro... tb_exchange" />
+            <marker date="1520228387799" expanded="true" signature="2167:2188" ph="select * fro... tb_coin" />
+            <marker date="1520228387799" expanded="true" signature="2433:2525" ph="SELECT price... tb_tinker" />
+            <marker date="1520228387799" expanded="true" signature="2820:2932" ph="INSERT INTO `tb_signal`... " />
+            <marker date="1520228387799" expanded="true" signature="3167:3273" ph="SELECT posit... tb_signal" />
+            <marker date="1520228387799" expanded="true" signature="3499:3743" ph="SELECT DISTI... tb_user_trade_bot" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <marker date="1520228387799" expanded="true" signature="603:624" ph="select * fro... tb_user" />
+            <marker date="1520228387799" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520228387799" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520228387799" expanded="true" signature="1960:1985" ph="select * fro... tb_exchange" />
+            <marker date="1520228387799" expanded="true" signature="2167:2188" ph="select * fro... tb_coin" />
+            <marker date="1520228387799" expanded="true" signature="2433:2525" ph="SELECT price... tb_tinker" />
+            <marker date="1520228387799" expanded="true" signature="2820:2932" ph="INSERT INTO `tb_signal`... " />
+            <marker date="1520228387799" expanded="true" signature="3167:3273" ph="SELECT posit... tb_signal" />
+            <marker date="1520228387799" expanded="true" signature="3499:3743" ph="SELECT DISTI... tb_user_trade_bot" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="682">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="33" selection-end-column="19" />
+          <folding>
+            <marker date="1520228387799" expanded="true" signature="603:624" ph="select * fro... tb_user" />
+            <marker date="1520228387799" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520228387799" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520228387799" expanded="true" signature="1960:1985" ph="select * fro... tb_exchange" />
+            <marker date="1520228387799" expanded="true" signature="2167:2188" ph="select * fro... tb_coin" />
+            <marker date="1520228387799" expanded="true" signature="2433:2525" ph="SELECT price... tb_tinker" />
+            <marker date="1520228387799" expanded="true" signature="2820:2932" ph="INSERT INTO `tb_signal`... " />
+            <marker date="1520228387799" expanded="true" signature="3167:3273" ph="SELECT posit... tb_signal" />
+            <marker date="1520228387799" expanded="true" signature="3499:3743" ph="SELECT DISTI... tb_user_trade_bot" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/signal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1517214792000" expanded="true" signature="603:624" ph="select * fro... tb_user" />
-            <marker date="1517214792000" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
-            <marker date="1517214792000" expanded="true" signature="1225:1250" ph="select * fro... tb_exchange" />
-            <marker date="1517214792000" expanded="true" signature="1432:1453" ph="select * fro... tb_coin" />
-            <marker date="1517214792000" expanded="true" signature="1698:1790" ph="SELECT price... tb_tinker" />
-            <marker date="1517214792000" expanded="true" signature="2085:2197" ph="INSERT INTO `tb_signal`... " />
-            <marker date="1517214792000" expanded="true" signature="2432:2538" ph="SELECT posit... tb_signal" />
-            <marker date="1517214792000" expanded="true" signature="2764:3008" ph="SELECT DISTI... tb_user_trade_bot" />
+            <marker date="1520228387799" expanded="true" signature="603:624" ph="select * fro... tb_user" />
+            <marker date="1520228387799" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520228387799" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520228387799" expanded="true" signature="1960:1985" ph="select * fro... tb_exchange" />
+            <marker date="1520228387799" expanded="true" signature="2167:2188" ph="select * fro... tb_coin" />
+            <marker date="1520228387799" expanded="true" signature="2433:2525" ph="SELECT price... tb_tinker" />
+            <marker date="1520228387799" expanded="true" signature="2820:2932" ph="INSERT INTO `tb_signal`... " />
+            <marker date="1520228387799" expanded="true" signature="3167:3273" ph="SELECT posit... tb_signal" />
+            <marker date="1520228387799" expanded="true" signature="3499:3743" ph="SELECT DISTI... tb_user_trade_bot" />
           </folding>
         </state>
       </provider>
@@ -385,14 +572,15 @@
         <state relative-caret-position="3410">
           <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
           <folding>
-            <marker date="1517214792000" expanded="true" signature="603:624" ph="select * fro... tb_user" />
-            <marker date="1517214792000" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
-            <marker date="1517214792000" expanded="true" signature="1225:1250" ph="select * fro... tb_exchange" />
-            <marker date="1517214792000" expanded="true" signature="1432:1453" ph="select * fro... tb_coin" />
-            <marker date="1517214792000" expanded="true" signature="1698:1790" ph="SELECT price... tb_tinker" />
-            <marker date="1517214792000" expanded="true" signature="2085:2197" ph="INSERT INTO `tb_signal`... " />
-            <marker date="1517214792000" expanded="true" signature="2432:2538" ph="SELECT posit... tb_signal" />
-            <marker date="1517214792000" expanded="true" signature="2764:3008" ph="SELECT DISTI... tb_user_trade_bot" />
+            <marker date="1520228387799" expanded="true" signature="603:624" ph="select * fro... tb_user" />
+            <marker date="1520228387799" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520228387799" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520228387799" expanded="true" signature="1960:1985" ph="select * fro... tb_exchange" />
+            <marker date="1520228387799" expanded="true" signature="2167:2188" ph="select * fro... tb_coin" />
+            <marker date="1520228387799" expanded="true" signature="2433:2525" ph="SELECT price... tb_tinker" />
+            <marker date="1520228387799" expanded="true" signature="2820:2932" ph="INSERT INTO `tb_signal`... " />
+            <marker date="1520228387799" expanded="true" signature="3167:3273" ph="SELECT posit... tb_signal" />
+            <marker date="1520228387799" expanded="true" signature="3499:3743" ph="SELECT DISTI... tb_user_trade_bot" />
           </folding>
         </state>
       </provider>
@@ -409,14 +597,15 @@
         <state relative-caret-position="3286">
           <caret line="110" column="16" lean-forward="true" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
           <folding>
-            <marker date="1517214792000" expanded="true" signature="603:624" ph="select * fro... tb_user" />
-            <marker date="1517214792000" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
-            <marker date="1517214792000" expanded="true" signature="1225:1250" ph="select * fro... tb_exchange" />
-            <marker date="1517214792000" expanded="true" signature="1432:1453" ph="select * fro... tb_coin" />
-            <marker date="1517214792000" expanded="true" signature="1698:1790" ph="SELECT price... tb_tinker" />
-            <marker date="1517214792000" expanded="true" signature="2085:2197" ph="INSERT INTO `tb_signal`... " />
-            <marker date="1517214792000" expanded="true" signature="2432:2538" ph="SELECT posit... tb_signal" />
-            <marker date="1517214792000" expanded="true" signature="2764:3008" ph="SELECT DISTI... tb_user_trade_bot" />
+            <marker date="1520228387799" expanded="true" signature="603:624" ph="select * fro... tb_user" />
+            <marker date="1520228387799" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520228387799" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520228387799" expanded="true" signature="1960:1985" ph="select * fro... tb_exchange" />
+            <marker date="1520228387799" expanded="true" signature="2167:2188" ph="select * fro... tb_coin" />
+            <marker date="1520228387799" expanded="true" signature="2433:2525" ph="SELECT price... tb_tinker" />
+            <marker date="1520228387799" expanded="true" signature="2820:2932" ph="INSERT INTO `tb_signal`... " />
+            <marker date="1520228387799" expanded="true" signature="3167:3273" ph="SELECT posit... tb_signal" />
+            <marker date="1520228387799" expanded="true" signature="3499:3743" ph="SELECT DISTI... tb_user_trade_bot" />
           </folding>
         </state>
       </provider>
@@ -433,22 +622,16 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1517214792000" expanded="true" signature="603:624" ph="select * fro... tb_user" />
-            <marker date="1517214792000" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
-            <marker date="1517214792000" expanded="true" signature="1225:1250" ph="select * fro... tb_exchange" />
-            <marker date="1517214792000" expanded="true" signature="1432:1453" ph="select * fro... tb_coin" />
-            <marker date="1517214792000" expanded="true" signature="1698:1790" ph="SELECT price... tb_tinker" />
-            <marker date="1517214792000" expanded="true" signature="2085:2197" ph="INSERT INTO `tb_signal`... " />
-            <marker date="1517214792000" expanded="true" signature="2432:2538" ph="SELECT posit... tb_signal" />
-            <marker date="1517214792000" expanded="true" signature="2764:3008" ph="SELECT DISTI... tb_user_trade_bot" />
+            <marker date="1520228387799" expanded="true" signature="603:624" ph="select * fro... tb_user" />
+            <marker date="1520228387799" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520228387799" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520228387799" expanded="true" signature="1960:1985" ph="select * fro... tb_exchange" />
+            <marker date="1520228387799" expanded="true" signature="2167:2188" ph="select * fro... tb_coin" />
+            <marker date="1520228387799" expanded="true" signature="2433:2525" ph="SELECT price... tb_tinker" />
+            <marker date="1520228387799" expanded="true" signature="2820:2932" ph="INSERT INTO `tb_signal`... " />
+            <marker date="1520228387799" expanded="true" signature="3167:3273" ph="SELECT posit... tb_signal" />
+            <marker date="1520228387799" expanded="true" signature="3499:3743" ph="SELECT DISTI... tb_user_trade_bot" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/coinone/chart.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1040">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -470,13 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="75" column="38" lean-forward="false" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tinker.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -502,28 +678,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db.py">
+    <entry file="file://$PROJECT_DIR$/signal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bithumb/api_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1068">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bithumb/xcoin_api_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bithumb/price">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coinone/chart.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tinker_stochastics.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bithumb/price.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <marker date="1517214792000" expanded="true" signature="603:624" ph="select * fro... tb_user" />
-            <marker date="1517214792000" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
-            <marker date="1517214792000" expanded="true" signature="1225:1250" ph="select * fro... tb_exchange" />
-            <marker date="1517214792000" expanded="true" signature="1432:1453" ph="select * fro... tb_coin" />
-            <marker date="1517214792000" expanded="true" signature="1698:1790" ph="SELECT price... tb_tinker" />
-            <marker date="1517214792000" expanded="true" signature="2085:2197" ph="INSERT INTO `tb_signal`... " />
-            <marker date="1517214792000" expanded="true" signature="2432:2538" ph="SELECT posit... tb_signal" />
-            <marker date="1517214792000" expanded="true" signature="2764:3008" ph="SELECT DISTI... tb_user_trade_bot" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/signal.py">
+    <entry file="file://$PROJECT_DIR$/db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="36" column="56" lean-forward="true" selection-start-line="36" selection-start-column="56" selection-end-line="36" selection-end-column="56" />
-          <folding />
+        <state relative-caret-position="482">
+          <caret line="65" column="24" lean-forward="true" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+          <folding>
+            <marker date="1520228387799" expanded="true" signature="603:624" ph="select * fro... tb_user" />
+            <marker date="1520228387799" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520228387799" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520228387799" expanded="true" signature="1960:1985" ph="select * fro... tb_exchange" />
+            <marker date="1520228387799" expanded="true" signature="2167:2188" ph="select * fro... tb_coin" />
+            <marker date="1520228387799" expanded="true" signature="2433:2525" ph="SELECT price... tb_tinker" />
+            <marker date="1520228387799" expanded="true" signature="2820:2932" ph="INSERT INTO `tb_signal`... " />
+            <marker date="1520228387799" expanded="true" signature="3167:3273" ph="SELECT posit... tb_signal" />
+            <marker date="1520228387799" expanded="true" signature="3499:3743" ph="SELECT DISTI... tb_user_trade_bot" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tinker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
