@@ -67,6 +67,54 @@ def insertDayPrice(coin=1, exchange=1, data=[]) :
 
     return result;
 
+def todayLastPrice(coin = 1, exchange = 1) : # 오늘 종가
+    res = getDbConnector();
+
+    sql = "SELECT closing_price FROM trade_bot.tb_tinker WHERE coin_idx=%s AND exchange_idx=%s ORDER BY idx DESC LIMIT 1;";
+    res['curs'].execute(sql, (coin, exchange));
+
+    rows = res['curs'].fetchone();
+
+    res['conn'].close();
+
+    return rows[0];
+
+def periodMinPrice(coin = 1, exchange = 1, period=10) : # N일중 최저가
+    res = getDbConnector();
+
+    sql = "SELECT min(min_price) FROM tb_tinker WHERE coin_idx=%s AND exchange_idx=%s ORDER BY idx DESC LIMIT %s;";
+    res['curs'].execute(sql, (coin, exchange, period));
+
+    rows = res['curs'].fetchone();
+
+    res['conn'].close();
+
+    return rows[0];
+
+def periodMaxPrice(coin = 1, exchange = 1, period=10) : # N일중 최고가
+    res = getDbConnector();
+
+    sql = "SELECT max(max_price) FROM tb_tinker WHERE coin_idx=%s AND exchange_idx=%s ORDER BY idx DESC LIMIT %s;";
+    res['curs'].execute(sql, (coin, exchange, period));
+
+    rows = res['curs'].fetchone();
+
+    res['conn'].close();
+
+    return rows[0];
+
+def insertStochTinker(coin = 1, exchange = 1, nday = 10, day_last_nday_low = 0, nday_high_nday_low = 0) : # 스토캐스틱 값 입력
+
+    res = getDbConnector();
+
+    sql = 'INSERT INTO `trade_bot`.`tb_stoch_tinker` (`coin_idx`, `exchange_idx`, `nday_num`, `day_last_nday_low`, `nday_high_nday_low`) ' \
+          'VALUES (%s, %s,  %s,  %s, %s);';
+
+    result = res['curs'].execute(sql, (coin, exchange, nday, day_last_nday_low, nday_high_nday_low));
+    res['conn'].close();
+
+    return result;
+
 
 #거래소 목록 조회
 def getExchangeList():

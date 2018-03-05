@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df57d971-6bca-4e10-b61d-9f4508e91b8d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/bithumb/api_test.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bithumb/price.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bithumb/xcoin_api_client.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tinker_stochastics.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/db.py" afterPath="$PROJECT_DIR$/db.py" />
       <change beforePath="$PROJECT_DIR$/tinker.py" afterPath="$PROJECT_DIR$/tinker.py" />
+      <change beforePath="$PROJECT_DIR$/tinker_stochastics.py" afterPath="$PROJECT_DIR$/tinker_stochastics.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,16 +19,16 @@
     <SUITE FILE_PATH="coverage/trademon$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1517030618058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/trademon$main.coverage" NAME="main Coverage Results" MODIFIED="1517030703010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/trademon$signal.coverage" NAME="signal Coverage Results" MODIFIED="1517381989768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/trademon$stochastics.coverage" NAME="stochastics Coverage Results" MODIFIED="1520225780866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/trademon$tinker.coverage" NAME="tinker Coverage Results" MODIFIED="1520228392636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/trademon$stochastics.coverage" NAME="stochastics Coverage Results" MODIFIED="1520231688158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/trademon$tinker.coverage" NAME="tinker Coverage Results" MODIFIED="1520232132471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="tinker_stochastics.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tinker_stochastics.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="217">
+              <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -41,22 +37,10 @@
       <file leaf-file-name="tinker.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tinker.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="186">
+              <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="price.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bithumb/price.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,18 +49,26 @@
       <file leaf-file-name="db.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="65" column="24" lean-forward="true" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+            <state relative-caret-position="265">
+              <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
               <folding>
-                <marker date="1520228387799" expanded="true" signature="603:624" ph="select * fro... tb_user" />
-                <marker date="1520228387799" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
-                <marker date="1520228387799" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
-                <marker date="1520228387799" expanded="true" signature="1960:1985" ph="select * fro... tb_exchange" />
-                <marker date="1520228387799" expanded="true" signature="2167:2188" ph="select * fro... tb_coin" />
-                <marker date="1520228387799" expanded="true" signature="2433:2525" ph="SELECT price... tb_tinker" />
-                <marker date="1520228387799" expanded="true" signature="2820:2932" ph="INSERT INTO `tb_signal`... " />
-                <marker date="1520228387799" expanded="true" signature="3167:3273" ph="SELECT posit... tb_signal" />
-                <marker date="1520228387799" expanded="true" signature="3499:3743" ph="SELECT DISTI... tb_user_trade_bot" />
+                <marker date="1520232128930" expanded="true" signature="603:624" ph="select * fro... tb_user" />
+                <marker date="1520232128930" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
+                <marker date="1520232128930" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
+                <marker date="1520232128930" expanded="true" signature="1979:2088" ph="SELECT closi... tb_tinker" />
+                <marker date="1520232128930" expanded="true" signature="2330:2431" ph="SELECT min(m... tb_tinker" />
+                <marker date="1520232128930" expanded="true" signature="2681:2782" ph="SELECT max(m... tb_tinker" />
+                <marker date="1520232128930" expanded="true" signature="3086:3235" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+                <marker date="1520232128930" expanded="true" signature="3086:3238" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+                <marker date="1520232128930" expanded="true" signature="3086:3242" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+                <marker date="1520232128930" expanded="true" signature="3086:3256" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+                <marker date="1520232128930" expanded="true" signature="3086:3257" ph="INSERT INTO `tb_signal`... " />
+                <marker date="1520232128930" expanded="true" signature="3483:3508" ph="select * fro... tb_exchange" />
+                <marker date="1520232128930" expanded="true" signature="3690:3711" ph="select * fro... tb_coin" />
+                <marker date="1520232128930" expanded="true" signature="3956:4048" ph="SELECT price... tb_tinker" />
+                <marker date="1520232128930" expanded="true" signature="4343:4455" ph="INSERT INTO `tb_signal`... " />
+                <marker date="1520232128930" expanded="true" signature="4690:4796" ph="SELECT posit... tb_signal" />
+                <marker date="1520232128930" expanded="true" signature="5022:5266" ph="SELECT DISTI... tb_user_trade_bot" />
               </folding>
             </state>
           </provider>
@@ -113,11 +105,11 @@
         <option value="$PROJECT_DIR$/trade.py" />
         <option value="$PROJECT_DIR$/signal.py" />
         <option value="$PROJECT_DIR$/stochastics.py" />
-        <option value="$PROJECT_DIR$/tinker_stochastics.py" />
         <option value="$PROJECT_DIR$/bithumb/price" />
-        <option value="$PROJECT_DIR$/tinker.py" />
         <option value="$PROJECT_DIR$/bithumb/price.py" />
+        <option value="$PROJECT_DIR$/tinker_stochastics.py" />
         <option value="$PROJECT_DIR$/db.py" />
+        <option value="$PROJECT_DIR$/tinker.py" />
       </list>
     </option>
   </component>
@@ -127,7 +119,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="998" />
     <option name="width" value="1568" />
     <option name="height" value="1047" />
@@ -329,7 +321,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="998" y="0" width="1568" height="1047" extended-state="0" />
+    <frame x="998" y="0" width="1568" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -361,7 +353,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -395,15 +389,23 @@
         <state relative-caret-position="3162">
           <caret line="106" column="31" lean-forward="false" selection-start-line="106" selection-start-column="23" selection-end-line="106" selection-end-column="31" />
           <folding>
-            <marker date="1520228387799" expanded="true" signature="603:624" ph="select * fro... tb_user" />
-            <marker date="1520228387799" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
-            <marker date="1520228387799" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
-            <marker date="1520228387799" expanded="true" signature="1960:1985" ph="select * fro... tb_exchange" />
-            <marker date="1520228387799" expanded="true" signature="2167:2188" ph="select * fro... tb_coin" />
-            <marker date="1520228387799" expanded="true" signature="2433:2525" ph="SELECT price... tb_tinker" />
-            <marker date="1520228387799" expanded="true" signature="2820:2932" ph="INSERT INTO `tb_signal`... " />
-            <marker date="1520228387799" expanded="true" signature="3167:3273" ph="SELECT posit... tb_signal" />
-            <marker date="1520228387799" expanded="true" signature="3499:3743" ph="SELECT DISTI... tb_user_trade_bot" />
+            <marker date="1520232128930" expanded="true" signature="603:624" ph="select * fro... tb_user" />
+            <marker date="1520232128930" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520232128930" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520232128930" expanded="true" signature="1979:2088" ph="SELECT closi... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="2330:2431" ph="SELECT min(m... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="2681:2782" ph="SELECT max(m... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="3086:3235" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3238" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3242" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3256" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3257" ph="INSERT INTO `tb_signal`... " />
+            <marker date="1520232128930" expanded="true" signature="3483:3508" ph="select * fro... tb_exchange" />
+            <marker date="1520232128930" expanded="true" signature="3690:3711" ph="select * fro... tb_coin" />
+            <marker date="1520232128930" expanded="true" signature="3956:4048" ph="SELECT price... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="4343:4455" ph="INSERT INTO `tb_signal`... " />
+            <marker date="1520232128930" expanded="true" signature="4690:4796" ph="SELECT posit... tb_signal" />
+            <marker date="1520232128930" expanded="true" signature="5022:5266" ph="SELECT DISTI... tb_user_trade_bot" />
           </folding>
         </state>
       </provider>
@@ -420,15 +422,23 @@
         <state relative-caret-position="682">
           <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
-            <marker date="1520228387799" expanded="true" signature="603:624" ph="select * fro... tb_user" />
-            <marker date="1520228387799" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
-            <marker date="1520228387799" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
-            <marker date="1520228387799" expanded="true" signature="1960:1985" ph="select * fro... tb_exchange" />
-            <marker date="1520228387799" expanded="true" signature="2167:2188" ph="select * fro... tb_coin" />
-            <marker date="1520228387799" expanded="true" signature="2433:2525" ph="SELECT price... tb_tinker" />
-            <marker date="1520228387799" expanded="true" signature="2820:2932" ph="INSERT INTO `tb_signal`... " />
-            <marker date="1520228387799" expanded="true" signature="3167:3273" ph="SELECT posit... tb_signal" />
-            <marker date="1520228387799" expanded="true" signature="3499:3743" ph="SELECT DISTI... tb_user_trade_bot" />
+            <marker date="1520232128930" expanded="true" signature="603:624" ph="select * fro... tb_user" />
+            <marker date="1520232128930" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520232128930" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520232128930" expanded="true" signature="1979:2088" ph="SELECT closi... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="2330:2431" ph="SELECT min(m... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="2681:2782" ph="SELECT max(m... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="3086:3235" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3238" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3242" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3256" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3257" ph="INSERT INTO `tb_signal`... " />
+            <marker date="1520232128930" expanded="true" signature="3483:3508" ph="select * fro... tb_exchange" />
+            <marker date="1520232128930" expanded="true" signature="3690:3711" ph="select * fro... tb_coin" />
+            <marker date="1520232128930" expanded="true" signature="3956:4048" ph="SELECT price... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="4343:4455" ph="INSERT INTO `tb_signal`... " />
+            <marker date="1520232128930" expanded="true" signature="4690:4796" ph="SELECT posit... tb_signal" />
+            <marker date="1520232128930" expanded="true" signature="5022:5266" ph="SELECT DISTI... tb_user_trade_bot" />
           </folding>
         </state>
       </provider>
@@ -445,15 +455,23 @@
         <state relative-caret-position="682">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="33" selection-end-column="19" />
           <folding>
-            <marker date="1520228387799" expanded="true" signature="603:624" ph="select * fro... tb_user" />
-            <marker date="1520228387799" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
-            <marker date="1520228387799" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
-            <marker date="1520228387799" expanded="true" signature="1960:1985" ph="select * fro... tb_exchange" />
-            <marker date="1520228387799" expanded="true" signature="2167:2188" ph="select * fro... tb_coin" />
-            <marker date="1520228387799" expanded="true" signature="2433:2525" ph="SELECT price... tb_tinker" />
-            <marker date="1520228387799" expanded="true" signature="2820:2932" ph="INSERT INTO `tb_signal`... " />
-            <marker date="1520228387799" expanded="true" signature="3167:3273" ph="SELECT posit... tb_signal" />
-            <marker date="1520228387799" expanded="true" signature="3499:3743" ph="SELECT DISTI... tb_user_trade_bot" />
+            <marker date="1520232128930" expanded="true" signature="603:624" ph="select * fro... tb_user" />
+            <marker date="1520232128930" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520232128930" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520232128930" expanded="true" signature="1979:2088" ph="SELECT closi... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="2330:2431" ph="SELECT min(m... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="2681:2782" ph="SELECT max(m... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="3086:3235" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3238" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3242" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3256" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3257" ph="INSERT INTO `tb_signal`... " />
+            <marker date="1520232128930" expanded="true" signature="3483:3508" ph="select * fro... tb_exchange" />
+            <marker date="1520232128930" expanded="true" signature="3690:3711" ph="select * fro... tb_coin" />
+            <marker date="1520232128930" expanded="true" signature="3956:4048" ph="SELECT price... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="4343:4455" ph="INSERT INTO `tb_signal`... " />
+            <marker date="1520232128930" expanded="true" signature="4690:4796" ph="SELECT posit... tb_signal" />
+            <marker date="1520232128930" expanded="true" signature="5022:5266" ph="SELECT DISTI... tb_user_trade_bot" />
           </folding>
         </state>
       </provider>
@@ -477,15 +495,23 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1520228387799" expanded="true" signature="603:624" ph="select * fro... tb_user" />
-            <marker date="1520228387799" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
-            <marker date="1520228387799" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
-            <marker date="1520228387799" expanded="true" signature="1960:1985" ph="select * fro... tb_exchange" />
-            <marker date="1520228387799" expanded="true" signature="2167:2188" ph="select * fro... tb_coin" />
-            <marker date="1520228387799" expanded="true" signature="2433:2525" ph="SELECT price... tb_tinker" />
-            <marker date="1520228387799" expanded="true" signature="2820:2932" ph="INSERT INTO `tb_signal`... " />
-            <marker date="1520228387799" expanded="true" signature="3167:3273" ph="SELECT posit... tb_signal" />
-            <marker date="1520228387799" expanded="true" signature="3499:3743" ph="SELECT DISTI... tb_user_trade_bot" />
+            <marker date="1520232128930" expanded="true" signature="603:624" ph="select * fro... tb_user" />
+            <marker date="1520232128930" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520232128930" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520232128930" expanded="true" signature="1979:2088" ph="SELECT closi... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="2330:2431" ph="SELECT min(m... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="2681:2782" ph="SELECT max(m... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="3086:3235" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3238" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3242" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3256" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3257" ph="INSERT INTO `tb_signal`... " />
+            <marker date="1520232128930" expanded="true" signature="3483:3508" ph="select * fro... tb_exchange" />
+            <marker date="1520232128930" expanded="true" signature="3690:3711" ph="select * fro... tb_coin" />
+            <marker date="1520232128930" expanded="true" signature="3956:4048" ph="SELECT price... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="4343:4455" ph="INSERT INTO `tb_signal`... " />
+            <marker date="1520232128930" expanded="true" signature="4690:4796" ph="SELECT posit... tb_signal" />
+            <marker date="1520232128930" expanded="true" signature="5022:5266" ph="SELECT DISTI... tb_user_trade_bot" />
           </folding>
         </state>
       </provider>
@@ -572,15 +598,23 @@
         <state relative-caret-position="3410">
           <caret line="114" column="0" lean-forward="true" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
           <folding>
-            <marker date="1520228387799" expanded="true" signature="603:624" ph="select * fro... tb_user" />
-            <marker date="1520228387799" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
-            <marker date="1520228387799" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
-            <marker date="1520228387799" expanded="true" signature="1960:1985" ph="select * fro... tb_exchange" />
-            <marker date="1520228387799" expanded="true" signature="2167:2188" ph="select * fro... tb_coin" />
-            <marker date="1520228387799" expanded="true" signature="2433:2525" ph="SELECT price... tb_tinker" />
-            <marker date="1520228387799" expanded="true" signature="2820:2932" ph="INSERT INTO `tb_signal`... " />
-            <marker date="1520228387799" expanded="true" signature="3167:3273" ph="SELECT posit... tb_signal" />
-            <marker date="1520228387799" expanded="true" signature="3499:3743" ph="SELECT DISTI... tb_user_trade_bot" />
+            <marker date="1520232128930" expanded="true" signature="603:624" ph="select * fro... tb_user" />
+            <marker date="1520232128930" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520232128930" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520232128930" expanded="true" signature="1979:2088" ph="SELECT closi... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="2330:2431" ph="SELECT min(m... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="2681:2782" ph="SELECT max(m... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="3086:3235" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3238" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3242" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3256" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3257" ph="INSERT INTO `tb_signal`... " />
+            <marker date="1520232128930" expanded="true" signature="3483:3508" ph="select * fro... tb_exchange" />
+            <marker date="1520232128930" expanded="true" signature="3690:3711" ph="select * fro... tb_coin" />
+            <marker date="1520232128930" expanded="true" signature="3956:4048" ph="SELECT price... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="4343:4455" ph="INSERT INTO `tb_signal`... " />
+            <marker date="1520232128930" expanded="true" signature="4690:4796" ph="SELECT posit... tb_signal" />
+            <marker date="1520232128930" expanded="true" signature="5022:5266" ph="SELECT DISTI... tb_user_trade_bot" />
           </folding>
         </state>
       </provider>
@@ -597,15 +631,23 @@
         <state relative-caret-position="3286">
           <caret line="110" column="16" lean-forward="true" selection-start-line="110" selection-start-column="16" selection-end-line="110" selection-end-column="16" />
           <folding>
-            <marker date="1520228387799" expanded="true" signature="603:624" ph="select * fro... tb_user" />
-            <marker date="1520228387799" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
-            <marker date="1520228387799" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
-            <marker date="1520228387799" expanded="true" signature="1960:1985" ph="select * fro... tb_exchange" />
-            <marker date="1520228387799" expanded="true" signature="2167:2188" ph="select * fro... tb_coin" />
-            <marker date="1520228387799" expanded="true" signature="2433:2525" ph="SELECT price... tb_tinker" />
-            <marker date="1520228387799" expanded="true" signature="2820:2932" ph="INSERT INTO `tb_signal`... " />
-            <marker date="1520228387799" expanded="true" signature="3167:3273" ph="SELECT posit... tb_signal" />
-            <marker date="1520228387799" expanded="true" signature="3499:3743" ph="SELECT DISTI... tb_user_trade_bot" />
+            <marker date="1520232128930" expanded="true" signature="603:624" ph="select * fro... tb_user" />
+            <marker date="1520232128930" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520232128930" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520232128930" expanded="true" signature="1979:2088" ph="SELECT closi... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="2330:2431" ph="SELECT min(m... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="2681:2782" ph="SELECT max(m... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="3086:3235" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3238" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3242" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3256" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3257" ph="INSERT INTO `tb_signal`... " />
+            <marker date="1520232128930" expanded="true" signature="3483:3508" ph="select * fro... tb_exchange" />
+            <marker date="1520232128930" expanded="true" signature="3690:3711" ph="select * fro... tb_coin" />
+            <marker date="1520232128930" expanded="true" signature="3956:4048" ph="SELECT price... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="4343:4455" ph="INSERT INTO `tb_signal`... " />
+            <marker date="1520232128930" expanded="true" signature="4690:4796" ph="SELECT posit... tb_signal" />
+            <marker date="1520232128930" expanded="true" signature="5022:5266" ph="SELECT DISTI... tb_user_trade_bot" />
           </folding>
         </state>
       </provider>
@@ -622,15 +664,23 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1520228387799" expanded="true" signature="603:624" ph="select * fro... tb_user" />
-            <marker date="1520228387799" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
-            <marker date="1520228387799" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
-            <marker date="1520228387799" expanded="true" signature="1960:1985" ph="select * fro... tb_exchange" />
-            <marker date="1520228387799" expanded="true" signature="2167:2188" ph="select * fro... tb_coin" />
-            <marker date="1520228387799" expanded="true" signature="2433:2525" ph="SELECT price... tb_tinker" />
-            <marker date="1520228387799" expanded="true" signature="2820:2932" ph="INSERT INTO `tb_signal`... " />
-            <marker date="1520228387799" expanded="true" signature="3167:3273" ph="SELECT posit... tb_signal" />
-            <marker date="1520228387799" expanded="true" signature="3499:3743" ph="SELECT DISTI... tb_user_trade_bot" />
+            <marker date="1520232128930" expanded="true" signature="603:624" ph="select * fro... tb_user" />
+            <marker date="1520232128930" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520232128930" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520232128930" expanded="true" signature="1979:2088" ph="SELECT closi... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="2330:2431" ph="SELECT min(m... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="2681:2782" ph="SELECT max(m... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="3086:3235" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3238" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3242" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3256" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3257" ph="INSERT INTO `tb_signal`... " />
+            <marker date="1520232128930" expanded="true" signature="3483:3508" ph="select * fro... tb_exchange" />
+            <marker date="1520232128930" expanded="true" signature="3690:3711" ph="select * fro... tb_coin" />
+            <marker date="1520232128930" expanded="true" signature="3956:4048" ph="SELECT price... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="4343:4455" ph="INSERT INTO `tb_signal`... " />
+            <marker date="1520232128930" expanded="true" signature="4690:4796" ph="SELECT posit... tb_signal" />
+            <marker date="1520232128930" expanded="true" signature="5022:5266" ph="SELECT DISTI... tb_user_trade_bot" />
           </folding>
         </state>
       </provider>
@@ -717,14 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tinker_stochastics.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bithumb/price.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="327">
@@ -735,28 +777,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tinker_stochastics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="7" column="28" lean-forward="true" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="65" column="24" lean-forward="true" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+        <state relative-caret-position="265">
+          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
           <folding>
-            <marker date="1520228387799" expanded="true" signature="603:624" ph="select * fro... tb_user" />
-            <marker date="1520228387799" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
-            <marker date="1520228387799" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
-            <marker date="1520228387799" expanded="true" signature="1960:1985" ph="select * fro... tb_exchange" />
-            <marker date="1520228387799" expanded="true" signature="2167:2188" ph="select * fro... tb_coin" />
-            <marker date="1520228387799" expanded="true" signature="2433:2525" ph="SELECT price... tb_tinker" />
-            <marker date="1520228387799" expanded="true" signature="2820:2932" ph="INSERT INTO `tb_signal`... " />
-            <marker date="1520228387799" expanded="true" signature="3167:3273" ph="SELECT posit... tb_signal" />
-            <marker date="1520228387799" expanded="true" signature="3499:3743" ph="SELECT DISTI... tb_user_trade_bot" />
+            <marker date="1520232128930" expanded="true" signature="603:624" ph="select * fro... tb_user" />
+            <marker date="1520232128930" expanded="true" signature="917:1017" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520232128930" expanded="true" signature="1242:1399" ph="INSERT INTO tb_tinker... " />
+            <marker date="1520232128930" expanded="true" signature="1979:2088" ph="SELECT closi... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="2330:2431" ph="SELECT min(m... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="2681:2782" ph="SELECT max(m... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="3086:3235" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3238" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3242" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3256" ph="INSERT INTO `trade_bot`.`tb_stoch_tinker`... " />
+            <marker date="1520232128930" expanded="true" signature="3086:3257" ph="INSERT INTO `tb_signal`... " />
+            <marker date="1520232128930" expanded="true" signature="3483:3508" ph="select * fro... tb_exchange" />
+            <marker date="1520232128930" expanded="true" signature="3690:3711" ph="select * fro... tb_coin" />
+            <marker date="1520232128930" expanded="true" signature="3956:4048" ph="SELECT price... tb_tinker" />
+            <marker date="1520232128930" expanded="true" signature="4343:4455" ph="INSERT INTO `tb_signal`... " />
+            <marker date="1520232128930" expanded="true" signature="4690:4796" ph="SELECT posit... tb_signal" />
+            <marker date="1520232128930" expanded="true" signature="5022:5266" ph="SELECT DISTI... tb_user_trade_bot" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tinker.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="186">
+          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
