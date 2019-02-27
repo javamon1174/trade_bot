@@ -9,10 +9,10 @@ nowDatetime = now.strftime('%Y-%m-%d %H:%M:%S');
 
 def getDbConnector() :
     conn = pymysql.connect( # MySQL Connection 연결
-        host='104.199.204.41',
-        user='javamon',
-        password='1111',
-        db='trade_bot',
+        host='',
+        user='',
+        password='',
+        db='',
         charset='utf8',
         autocommit=True
     );
